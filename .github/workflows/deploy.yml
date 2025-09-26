@@ -11,7 +11,7 @@ env:
     GKE_REGION: "us-central1"
     DEPLOYMENT_NAME: "mlops-app-project-03"
     REPOSITORY_NAME: "us-central1-docker.pkg.dev/ml-ops-amasha/mlops-project"
-    IMAGE: "us-central1-docker.pkg.dev/ml-ops-amasha/mlops-project/mlops-app-project-03:latest"
+    IMAGE: "us-central1-docker.pkg.dev/ml-ops-amasha/mlops-project/mlops-app-project-03"
 
 jobs:
     build-and-deploy:
